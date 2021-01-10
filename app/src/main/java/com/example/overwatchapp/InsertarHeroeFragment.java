@@ -47,7 +47,7 @@ import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 import static androidx.core.content.ContextCompat.checkSelfPermission;
 
 
-    public class InsertarAlbumFragment extends Fragment {
+    public class InsertarHeroeFragment extends Fragment {
         private FragmentInsertarHeroeBinding binding;
         Uri imagenSeleccionada;
         @Override
