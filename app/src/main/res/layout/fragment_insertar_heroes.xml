@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:hint="Ultimate"/>
         <ImageView
-            android:id="@+id/foto_Ultimat_heroe"
+            android:id="@+id/foto_Ultimate_heroe"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_add_photo_alternate_24"
