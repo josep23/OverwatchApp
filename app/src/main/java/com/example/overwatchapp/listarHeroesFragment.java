@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.NavController;
 
 public class listarHeroesFragment {
    private FragmentlistaHeroesBinding binding;
@@ -21,7 +22,7 @@ public class listarHeroesFragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        albumsViewModel = new ViewModelProvider(requireActivity()).get(AlbumsViewModel.class);
+        heroesViewModel = new ViewModelProvider(requireActivity()).get(heroesViewModel.class);
 
         navController = Navigation.findNavController(view);
 
